@@ -7,16 +7,20 @@ package com.alan.constant;
  */
 public class XmlConstants {
 
-    public static String clazzDefine="class";
+    public static String CLAZZ_DEFINE="class";
 
-    public static String property="property";
+    public static String PROPERTY="property";
 
-    public static String propertyName= "name";
+    public static String PROPERTY_NAME= "name";
 
-    public static String propertyValue="value";
+    public static String PROPERTY_VALUE="value";
 
-    public static String stringTypeName="java.lang.String";
+    public static String STRING_TYPE_NAME="java.lang.String";
 
-    public static String intTypeName="int";
+    public static String INT_TYPE_NAME="int";
+
+    public static String SINGLE_SCOPE="single";
+
+    public static String PROTOTYPE_SCOPE="prototype";
 
 }

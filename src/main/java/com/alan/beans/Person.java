@@ -5,7 +5,7 @@ package com.alan.beans;
  * @Description:
  * @Date: Create in 11:43 PM 2019/5/23
  */
-public class person {
+public class Person {
 
     private String name;
 
@@ -28,11 +28,4 @@ public class person {
         this.age = age;
     }
 
-    @Override
-    public String toString() {
-        return "person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
 }

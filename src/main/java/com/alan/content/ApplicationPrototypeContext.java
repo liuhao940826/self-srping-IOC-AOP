@@ -15,62 +15,23 @@ import java.util.Map;
  * @Description:
  * @Date: Create in 10:17 AM 2019/5/24
  */
-public class ApplicationSingleContext {
+public class ApplicationPrototypeContext {
 
-    private static String filePath = "src/main/resources/application.xml";
+    private static String filePath = "src/main/resources/applicationPrototype.xml";
 
     private static Document config;
-
-    /**
-     * 容器map
-     */
-    private static Map<String,Object> containerMap =new HashMap<String, Object>();
 
     static {
 
         SAXReader reader = new SAXReader();
         try {
-
             config = reader.read(filePath);
-            //加载单例的bean
-            loadingBean();
         } catch (Exception e) {
 
             e.getStackTrace();
         }
 
     }
-
-    /**
-     * 单例实在spring 容器创建的时候加载
-     * 根据scope 获取对应的标签 获取标签中class 的类路径,根据classFile去创建实例
-     */
-    public static void loadingBean( ){
-        //真实情况是加载scope等于single 或者为空默认的
-        String xpath = "//bean[@scope='" + XmlConstants.SINGLE_SCOPE + "']";
-
-        List<Element> list = null;
-
-        Object singleBean=null;
-        
-        try {
-            list = config.selectNodes(xpath);
-
-            for (Element singleBeanElement : list) {
-                //获取类路径
-                String classPath = singleBeanElement.attributeValue(XmlConstants.CLAZZ_DEFINE);
-
-                singleBean = Class.forName(classPath).newInstance();
-                //容器加载bean 类路径重复的会背替换 可以增加逻辑在选择怎么替换
-                containerMap.put(classPath,singleBean);
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
 
     /**
      * 获取bean 的时候判断容器里面是否已经拥有 在spring加载的时候创建
@@ -88,29 +49,16 @@ public class ApplicationSingleContext {
         List<Element> list = null;
 
         try {
-            //document 去查找对应满足条件的bean标签的element元素 拿到元素去根据classs属性创建实例
             list = config.selectNodes(xpath);
-            //加载不到对应bean的元素时候返还空
-            if(list==null|| list.size()==0){
-                return null;
-            }
-            //由于根据beanId 去获取只获取其中一个
+
             Element beanElement = list.get(0);
 
             //获取类路径
             String classPath = beanElement.attributeValue(XmlConstants.CLAZZ_DEFINE);
 
-            if(containerMap.get(classPath)!=null){
-                return containerMap.get(classPath);
-            }
-
-            Class<?> classFile = Class.forName(classPath);
-
-            if(classFile!=null){
-                bean = classFile.newInstance();
-                //初始化对象
-                init(bean, beanElement);
-            }
+            bean = Class.forName(classPath).newInstance();
+            //初始化对象
+            init(bean, beanElement);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -177,18 +125,11 @@ public class ApplicationSingleContext {
 
 
     public static void main(String[] args) {
-        ApplicationSingleContext applicationSingleContext = new ApplicationSingleContext();
-        Object person = applicationSingleContext.getBean("person");
-        Object person2 = applicationSingleContext.getBean("person");
+        ApplicationPrototypeContext applicationPrototypeContext = new ApplicationPrototypeContext();
+        Object person = applicationPrototypeContext.getBean("person");
+        Object person2 = applicationPrototypeContext.getBean("person");
         System.out.println(person);
         System.out.println(person2);
-
-
-        //多例的
-        Object brid = applicationSingleContext.getBean("brid");
-        Object brid2 = applicationSingleContext.getBean("brid");
-        System.out.println(brid);
-        System.out.println(brid2);
 
     }
 

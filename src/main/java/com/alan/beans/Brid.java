@@ -19,6 +19,6 @@ public class Brid {
 
 
     public Brid() {
-        System.out.println("brid的构造函数被调用");
+        System.out.println("brid constructor");
     }
 }

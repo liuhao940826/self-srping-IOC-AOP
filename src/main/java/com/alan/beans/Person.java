@@ -30,6 +30,8 @@ public class Person {
 
 
     public Person() {
-        System.out.println("人的构造函数被加载");
+        System.out.println("person constructor");
     }
+
+
 }

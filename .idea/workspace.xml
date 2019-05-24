@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alan/beans/Brid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alan/beans/Brid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alan/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alan/beans/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alan/content/ApplicationSingleContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alan/content/ApplicationSingleContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alan/beans/person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alan/beans/person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alan/content/ApplicationSingleContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alan/content/ApplicationSingleContext.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,17 +36,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="3413" />
+          <entry key="java" value="3488" />
           <entry key="md" value="83" />
-          <entry key="txt" value="33" />
+          <entry key="txt" value="46" />
           <entry key="xml" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3413" />
+          <entry key="JAVA" value="3488" />
           <entry key="Markdown" value="83" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="PLAIN_TEXT" value="56" />
           <entry key="XML" value="271" />
         </counts>
       </usages-collector>
@@ -97,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/beans/Brid.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
@@ -113,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/beans/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+            <state relative-caret-position="307">
+              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="49" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#229#230#0" expanded="true" />
@@ -134,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/content/ApplicationSingleContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="385">
+              <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#584#600#0" expanded="true" />
@@ -200,8 +202,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alan/content/ApplicationPrototypeContext.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alan/beans/Brid.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alan/beans/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alan/beans/Brid.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alan/content/ApplicationSingleContext.java" />
       </list>
     </option>
@@ -332,7 +334,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558712901084" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558713066331" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -411,7 +413,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558625932618</updated>
-      <workItem from="1558625934162" duration="11505000" />
+      <workItem from="1558625934162" duration="11670000" />
     </task>
     <task id="LOCAL-00001" summary="add prototype and single">
       <created>1558712600943</created>
@@ -420,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558712600944</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add sout info">
+      <created>1558712916038</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558712916038</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11505000" />
+    <option name="totallyTimeSpent" value="11670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="938" extended-state="6" />
@@ -441,7 +450,7 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50061053" side_tool="true" weight="0.399757" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32928312" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32928312" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32928312" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32928312" />
@@ -470,7 +479,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add prototype and single" />
-    <option name="LAST_COMMIT_MESSAGE" value="add prototype and single" />
+    <MESSAGE value="add sout info" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sout info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,25 +557,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/beans/Brid.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/content/ApplicationPrototypeContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="470">
+          <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/beans/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        <state relative-caret-position="307">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="49" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
@@ -581,17 +583,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/content/ApplicationPrototypeContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/beans/Brid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="27" />
+        <state relative-caret-position="378">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alan/content/ApplicationSingleContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="385">
+          <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#584#600#0" expanded="true" />

@@ -66,7 +66,7 @@ public class ApplicationSingleContext {
                 if(classFile!=null){
 
                     singleBean = classFile.newInstance();
-                    System.out.println("类加赞时候创建实例对象:"+classPath);
+                    System.out.println("class loading:"+classPath);
                     //容器加载bean 类路径重复的会背替换 可以增加逻辑在选择怎么替换
                     containerMap.put(classPath,singleBean);
                 }
@@ -116,7 +116,7 @@ public class ApplicationSingleContext {
             classFile = Class.forName(classPath);
 
             if(classFile!=null){
-                System.out.println("每次使用的时候创建bean");
+                System.out.println("be used newInstance.....");
                 bean = classFile.newInstance();
                 //初始化对象
                 init(bean, beanElement);

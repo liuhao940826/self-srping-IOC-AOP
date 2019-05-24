@@ -28,4 +28,8 @@ public class Person {
         this.age = age;
     }
 
+
+    public Person() {
+        System.out.println("人的构造函数被加载");
+    }
 }

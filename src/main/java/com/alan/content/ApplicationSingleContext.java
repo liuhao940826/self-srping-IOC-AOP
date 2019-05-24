@@ -26,6 +26,8 @@ public class ApplicationSingleContext {
      */
     private static Map<String,Object> containerMap =new HashMap<String, Object>();
 
+    private static Class<?> classFile;
+
     static {
 
         SAXReader reader = new SAXReader();
@@ -60,9 +62,16 @@ public class ApplicationSingleContext {
                 //获取类路径
                 String classPath = singleBeanElement.attributeValue(XmlConstants.CLAZZ_DEFINE);
 
-                singleBean = Class.forName(classPath).newInstance();
-                //容器加载bean 类路径重复的会背替换 可以增加逻辑在选择怎么替换
-                containerMap.put(classPath,singleBean);
+                classFile = Class.forName(classPath);
+                if(classFile!=null){
+
+                    singleBean = classFile.newInstance();
+                    System.out.println("类加赞时候创建实例对象:"+classPath);
+                    //容器加载bean 类路径重复的会背替换 可以增加逻辑在选择怎么替换
+                    containerMap.put(classPath,singleBean);
+                }
+
+
             }
 
         } catch (Exception e) {
@@ -104,9 +113,10 @@ public class ApplicationSingleContext {
                 return containerMap.get(classPath);
             }
 
-            Class<?> classFile = Class.forName(classPath);
+            classFile = Class.forName(classPath);
 
             if(classFile!=null){
+                System.out.println("每次使用的时候创建bean");
                 bean = classFile.newInstance();
                 //初始化对象
                 init(bean, beanElement);

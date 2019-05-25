@@ -26,6 +26,10 @@ public class ApplicationSingleContext {
      */
     private static Map<String,Object> containerMap =new HashMap<String, Object>();
 
+
+    /**
+     * 其实用局部的安全 多线程的情况下 这个会改变
+     */
     private static Class<?> classFile;
 
     static {

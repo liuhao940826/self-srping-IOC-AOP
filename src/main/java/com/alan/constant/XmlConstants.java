@@ -22,5 +22,9 @@ public class XmlConstants {
     public static String SINGLE_SCOPE="single";
 
     public static String PROTOTYPE_SCOPE="prototype";
+    /**
+     * ref dependency
+     */
+    public static String REF="ref";
 
 }

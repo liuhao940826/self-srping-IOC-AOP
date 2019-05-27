@@ -11,6 +11,8 @@
         <module name="spring_Bean" />
         <module name="spring_ComponentScan" />
         <module name="spring_Conditioncal" />
+        <module name="spring_FactoryBean" />
+        <module name="spring_Import" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

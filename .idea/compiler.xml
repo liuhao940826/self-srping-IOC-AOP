@@ -6,8 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="self-spring4" />
+        <module name="self-ioc" />
+        <module name="spring_@ComponentScan_exclude" />
+        <module name="spring_Bean" />
+        <module name="spring_ComponentScan" />
+        <module name="spring_Conditioncal" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring_ComponentScan_exclude" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

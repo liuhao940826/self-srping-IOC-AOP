@@ -18,6 +18,7 @@
         <module>spring_@Import</module>
         <module>spring_@Value</module>
         <module>spring_BeanPostProcessor</module>
+        <module>spring_BeanPostProcessor实现介绍</module>
     </modules>
 
 </project>

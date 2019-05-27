@@ -9,10 +9,12 @@
         <module name="self-ioc" />
         <module name="spring_@ComponentScan_exclude" />
         <module name="spring_Bean" />
+        <module name="spring_BeanPostProcessor" />
         <module name="spring_ComponentScan" />
         <module name="spring_Conditioncal" />
         <module name="spring_FactoryBean" />
         <module name="spring_Import" />
+        <module name="spring_Value" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

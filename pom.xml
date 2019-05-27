@@ -16,6 +16,8 @@
         <module>spring_@Conditioncal</module>
         <module>spring_FactoryBean</module>
         <module>spring_@Import</module>
+        <module>spring_@Value</module>
+        <module>spring_BeanPostProcessor</module>
     </modules>
 
 </project>

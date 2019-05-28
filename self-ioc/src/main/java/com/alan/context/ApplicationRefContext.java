@@ -19,7 +19,7 @@ import java.util.Map;
  */
 public class ApplicationRefContext {
 
-    private static String filePath = "src/main/resources/applicationRef.xml";
+    private static String filePath = "/Users/liuhao/IdeaProjects/self-srping-IOC-AOP/self-ioc/src/main/resources/applicationRef.xml";
 
     private static Document config;
 

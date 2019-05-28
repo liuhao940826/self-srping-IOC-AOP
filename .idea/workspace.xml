@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/self-ioc/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/self-ioc/src/main/resources/applicationPrototype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/self-ioc/src/main/resources/applicationRef.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,12 +102,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="xml" value="2" />
+          <entry key="java" value="3" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="12" />
+          <entry key="txt" value="21" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="12" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -110,24 +133,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="71">
+              <caret line="17" column="137" selection-start-line="17" selection-start-column="137" selection-end-line="17" selection-end-column="137" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="19" column="128" selection-start-line="19" selection-start-column="128" selection-end-line="19" selection-end-column="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/self-ioc/src/main/resources/application.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/self-ioc/src/main/resources/applicationPrototype.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="21" column="131" selection-start-line="21" selection-start-column="131" selection-end-line="21" selection-end-column="131" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/self-ioc/src/main/resources/applicationRef.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -137,78 +196,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring_@ComponentScan_exclude/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="11" column="45" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="92" column="46" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="46" />
-              <folding>
-                <element signature="e#10944#10945#0" expanded="true" />
-                <element signature="e#10962#10963#0" expanded="true" />
-                <element signature="e#11179#11180#0" expanded="true" />
-                <element signature="e#11197#11198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1548">
-              <caret line="109" column="29" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="29" />
-              <folding>
-                <element signature="e#3744#3745#0" expanded="true" />
-                <element signature="e#3796#3797#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/ProxyCreatorSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-              <folding>
-                <element signature="e#2241#2242#0" expanded="true" />
-                <element signature="e#2275#2276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/AopProxyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/DefaultAopProxyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -236,12 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/conditions/SelfConditions.java" />
-        <option value="$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/conditions/WindowsConditions.java" />
-        <option value="$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/conditions/MacConditions.java" />
-        <option value="$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/conditions/LinuxConditions.java" />
-        <option value="$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/config/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/spring_FactoryBean/pom.xml" />
         <option value="$PROJECT_DIR$/spring_FactoryBean/src/main/java/com/alan/beans/Student.java" />
         <option value="$PROJECT_DIR$/spring_FactoryBean/src/main/java/com/alan/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/spring_@Import/pom.xml" />
@@ -287,6 +281,12 @@
         <option value="$PROJECT_DIR$/spring-Aop/src/main/java/com/alan/aspect/MinorService.java" />
         <option value="$PROJECT_DIR$/spring-Aop/src/main/java/com/alan/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/self-ioc/src/main/resources/applicationRef.xml" />
+        <option value="$PROJECT_DIR$/self-ioc/src/main/resources/applicationPrototype.xml" />
+        <option value="$PROJECT_DIR$/self-ioc/src/main/resources/application.xml" />
+        <option value="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java" />
+        <option value="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java" />
+        <option value="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java" />
       </list>
     </option>
   </component>
@@ -338,7 +338,137 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="self-ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="self-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="self-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="self-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="self-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="self-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="self-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="self-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
               <item name="spring_@ComponentScan_exclude" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@ComponentScan_exclude" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@ComponentScan_exclude" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@ComponentScan_exclude" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@ComponentScan_exclude" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@ComponentScan_exclude" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,7 +480,7 @@
     <property name="SearchEverywhereHistoryKey" value="Abst&#9;FILE&#9;jar:///Users/liuhao/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class&#10;AbstractAu&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory&#10;ApplicationContextA&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559038252633" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559039840137" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -359,12 +489,8 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring-Aop/src/main/java" />
-      <recent name="$PROJECT_DIR$/spring_beanLifeCycle/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java" />
-      <recent name="$PROJECT_DIR$/spring_Aware/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spring_Aware/src/main/java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.alan.aspect" />
@@ -373,8 +499,12 @@
       <recent name="com.alan.conditions" />
       <recent name="com.alan.content" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/self-ioc/src/main" />
+      <recent name="$PROJECT_DIR$/spring-Aop/src/main/java" />
+      <recent name="$PROJECT_DIR$/spring_beanLifeCycle/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java" />
+      <recent name="$PROJECT_DIR$/spring_Aware/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,20 +519,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApplicationConfig (3)">
-    <configuration name="ApplicationConfig (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
-      <module name="spring_BeanPostProcessor实现介绍" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alan.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ApplicationPrototypeContext">
     <configuration name="ApplicationConfig (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
       <module name="spring_Aware" />
@@ -429,12 +546,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationConfig (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
-      <module name="spring_FactoryBean" />
+    <configuration name="ApplicationPrototypeContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alan.context.ApplicationPrototypeContext" />
+      <module name="self-ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alan.config.*" />
+          <option name="PATTERN" value="com.alan.context.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,12 +559,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationConfig (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
-      <module name="spring_beanLifeCycle" />
+    <configuration name="ApplicationRefContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alan.context.ApplicationRefContext" />
+      <module name="self-ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alan.config.*" />
+          <option name="PATTERN" value="com.alan.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationSingleContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alan.context.ApplicationSingleContext" />
+      <module name="self-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alan.context.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,19 +586,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApplicationConfig (1)" />
-      <item itemvalue="Application.ApplicationConfig (4)" />
       <item itemvalue="Application.ApplicationConfig (2)" />
-      <item itemvalue="Application.ApplicationConfig (5)" />
       <item itemvalue="Application.ApplicationConfig (3)" />
+      <item itemvalue="Application.ApplicationPrototypeContext" />
+      <item itemvalue="Application.ApplicationSingleContext" />
+      <item itemvalue="Application.ApplicationRefContext" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApplicationConfig (3)" />
-        <item itemvalue="Application.ApplicationConfig (5)" />
+        <item itemvalue="Application.ApplicationPrototypeContext" />
+        <item itemvalue="Application.ApplicationSingleContext" />
+        <item itemvalue="Application.ApplicationRefContext" />
         <item itemvalue="Application.ApplicationConfig (2)" />
-        <item itemvalue="Application.ApplicationConfig (4)" />
-        <item itemvalue="Application.ApplicationConfig (1)" />
+        <item itemvalue="Application.ApplicationConfig (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +616,7 @@
       <workItem from="1558850766342" duration="12840000" />
       <workItem from="1559008703025" duration="8879000" />
       <workItem from="1559031715878" duration="2275000" />
-      <workItem from="1559039300388" duration="31000" />
+      <workItem from="1559039300388" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="add prototype and single">
       <created>1558712600943</created>
@@ -586,11 +716,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559034647155</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix error mod">
+      <created>1559039349757</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559039349757</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49287000" />
+    <option name="totallyTimeSpent" value="49755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="934" extended-state="6" />
@@ -605,7 +742,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32844934" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32844934" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.32844934" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.3992674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -622,7 +759,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.49275362" visible="true" weight="0.32967034" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.49275362" weight="0.32967034" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -649,7 +786,8 @@
     <MESSAGE value="add explain" />
     <MESSAGE value="add Aware and lifeCycle" />
     <MESSAGE value="add Aop" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Aop" />
+    <MESSAGE value="fix error mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix error mod" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -744,6 +882,18 @@
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -751,30 +901,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -938,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1009,20 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1079,13 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring_@ComponentScan_exclude/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1097,6 +1195,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/resources/applicationPrototype.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="17" column="137" selection-start-line="17" selection-start-column="137" selection-end-line="17" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/resources/applicationRef.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="21" column="131" selection-start-line="21" selection-start-column="131" selection-end-line="21" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/resources/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="128" selection-start-line="19" selection-start-column="128" selection-end-line="19" selection-end-column="128" />
         </state>
       </provider>
     </entry>
@@ -1152,7 +1302,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springAop</last-edited>
+          <last-edited>self-ioc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

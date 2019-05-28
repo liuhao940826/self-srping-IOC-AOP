@@ -17,7 +17,7 @@ import java.util.Map;
  */
 public class ApplicationSingleContext {
 
-    private static String filePath = "src/main/resources/application.xml";
+    private static String filePath = "/Users/liuhao/IdeaProjects/self-srping-IOC-AOP/self-ioc/src/main/resources/application.xml";
 
     private static Document config;
 

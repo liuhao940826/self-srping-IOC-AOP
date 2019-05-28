@@ -1,7 +1,6 @@
 package com.alan.beans;
 
 import org.springframework.beans.factory.FactoryBean;
-import org.springframework.stereotype.Component;
 
 /**
  * @Author: liuhao

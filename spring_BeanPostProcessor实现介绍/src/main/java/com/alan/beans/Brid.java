@@ -7,14 +7,16 @@ import org.springframework.stereotype.Component;
 
 /**
  * @Author: liuhao
- * @Description: 只要实现这个接口就可以
+ * @Description: 只要实现这个接口就可以 并且这个类被BeanPostProcessor拦截的
  * @Date: Create in 9:54 PM 2019/5/27
  */
 @Component
 public class Brid implements ApplicationContextAware {
 
     private int age;
-
+    /**
+     * 可以赋值spring 内部的值
+     */
     private ApplicationContext applicationContext;
 
     public int getAge() {
@@ -26,7 +28,7 @@ public class Brid implements ApplicationContextAware {
     }
 
     /**
-     * 重写
+     * 重写  applicationContextAwareProcessor中被调用
      * @param applicationContext
      * @throws BeansException
      */

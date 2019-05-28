@@ -14,7 +14,7 @@ import java.lang.reflect.Field;
 public class MyBeanPostProcessor implements BeanPostProcessor {
 
     /**
-     * bean初始化之前调用
+     * bean初始化之前调用 在AbstractAutowireCapableBeanFactory 中被调用
      * @param bean bean是spring 管理的一个对象
      * @param beanName 就是对应的关键字
      * @return

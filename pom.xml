@@ -12,7 +12,7 @@
         <module>self-ioc</module>
         <module>spring_@Bean</module>
         <module>spring_@ComponentScan</module>
-        <module>spring_@ComponentScan_eliminate</module>
+        <module>spring_@ComponentScan_exclude</module>
         <module>spring_@Conditioncal</module>
         <module>spring_FactoryBean</module>
         <module>spring_@Import</module>

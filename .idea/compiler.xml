@@ -7,7 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="self-ioc" />
+        <module name="spring-Aop" />
+        <module name="spring_@Bean" />
+        <module name="spring_@ComponentScan" />
         <module name="spring_@ComponentScan_exclude" />
+        <module name="spring_@Conditioncal" />
+        <module name="spring_@Import" />
+        <module name="spring_@Value" />
         <module name="spring_Aware" />
         <module name="spring_Bean" />
         <module name="spring_beanLifeCycle" />

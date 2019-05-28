@@ -18,6 +18,7 @@
         <module name="spring_FactoryBean" />
         <module name="spring_Import" />
         <module name="spring_Value" />
+        <module name="springAop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="self-ioc" />
         <module name="spring_@ComponentScan_exclude" />
+        <module name="spring_Aware" />
         <module name="spring_Bean" />
+        <module name="spring_beanLifeCycle" />
         <module name="spring_BeanPostProcessor" />
         <module name="spring_BeanPostProcessor实现介绍" />
         <module name="spring_ComponentScan" />

@@ -19,6 +19,8 @@
         <module>spring_@Value</module>
         <module>spring_BeanPostProcessor</module>
         <module>spring_BeanPostProcessor实现介绍</module>
+        <module>spring_Aware</module>
+        <module>spring_beanLifeCycle</module>
     </modules>
 
 </project>

@@ -1,5 +1,6 @@
 package com.alan.config;
 
+import com.alan.beans.MyImportBeanDefinitionRegistrar;
 import com.alan.beans.Student;
 import com.alan.beans.Teacher;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -17,6 +18,7 @@ import org.springframework.context.annotation.Import;
  * 排除controller和Service
  * filterType 有五种点进去看
  */
+@Import(value = {MyImportBeanDefinitionRegistrar.class})
 @Configuration
 public class ApplicationImportDefineConfig {
 

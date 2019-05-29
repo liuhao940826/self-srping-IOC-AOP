@@ -23,6 +23,7 @@
         <module name="spring_Conditioncal" />
         <module name="spring_FactoryBean" />
         <module name="spring_Import" />
+        <module name="spring_transaction" />
         <module name="spring_Value" />
         <module name="springAop" />
       </profile>

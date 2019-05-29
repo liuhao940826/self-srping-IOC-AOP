@@ -35,7 +35,6 @@ public class Brid implements ApplicationContextAware, BeanNameAware, EmbeddedVal
      * @param applicationContext
      * @throws BeansException
      */
-    @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext=applicationContext;
     }
@@ -44,7 +43,6 @@ public class Brid implements ApplicationContextAware, BeanNameAware, EmbeddedVal
      * 获取在spring容器中的关键词
      * @param s
      */
-    @Override
     public void setBeanName(String s) {
         System.out.println("brid beanName:"+s);
     }
@@ -53,7 +51,6 @@ public class Brid implements ApplicationContextAware, BeanNameAware, EmbeddedVal
      * 在没有@value的情况下 可以解析对应的spel表达式
      * @param stringValueResolver
      */
-    @Override
     public void setEmbeddedValueResolver(StringValueResolver stringValueResolver) {
 
         String value = stringValueResolver.resolveStringValue("我是${teacher.name} , 我今年#{2019-1994}");

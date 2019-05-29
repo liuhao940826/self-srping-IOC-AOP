@@ -22,6 +22,7 @@
         <module>spring_Aware</module>
         <module>spring_beanLifeCycle</module>
         <module>spring-Aop</module>
+        <module>spring_transaction</module>
     </modules>
 
 </project>

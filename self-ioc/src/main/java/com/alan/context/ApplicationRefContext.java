@@ -234,10 +234,10 @@ public class ApplicationRefContext {
 
                     System.out.println("declaredFieldName:"+declaredField.getName());
 
-                    String propertyNaem = element.attributeValue(XmlConstants.PROPERTY_NAME);
-                    System.out.println("propertyName"+propertyNaem);
+                    String propertyName = element.attributeValue(XmlConstants.PROPERTY_NAME);
+                    System.out.println("propertyName"+propertyName);
 
-                    if (name.equals(propertyNaem)) {
+                    if (name.equals(propertyName)) {
                         //暴力访问
                         declaredField.setAccessible(true);
 

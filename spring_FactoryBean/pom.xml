@@ -19,6 +19,11 @@
             <artifactId>spring-context</artifactId>
             <version>5.1.7.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.3.6.RELEASE</version>
+        </dependency>
     </dependencies>
 
 </project>

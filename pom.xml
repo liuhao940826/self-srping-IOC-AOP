@@ -23,8 +23,6 @@
         <module>spring_beanLifeCycle</module>
         <module>spring-Aop</module>
         <module>spring_transaction</module>
-        <module>spring_abstract_@auto</module>
-        <module>springboot_@abstrct_auto</module>
     </modules>
 
 </project>

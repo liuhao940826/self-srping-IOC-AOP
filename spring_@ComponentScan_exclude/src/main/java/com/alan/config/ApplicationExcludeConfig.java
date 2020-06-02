@@ -17,6 +17,12 @@ import org.springframework.stereotype.Service;
  * 排除注解类型的注解交给spring管理
  * 排除controller和Service
  * filterType 有五种点进去看
+ *              ANNOTATION 根据注解
+ *              ASSIGNABLE_TYPE 指定的类
+ *              ASPECTJ 根据表达式过滤
+ *              REGEX   根据正则过滤
+ *              CUSTOM  根据开发人员自己的规则规律
+ *
  *
  */
 @ComponentScan(value = "com.alan.beans",

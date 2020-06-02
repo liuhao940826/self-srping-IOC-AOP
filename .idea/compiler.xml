@@ -6,30 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring_transaction" />
+        <module name="spring_FactoryBean" />
         <module name="self-ioc" />
-        <module name="spring-Aop" />
-        <module name="spring_@Bean" />
-        <module name="spring_@ComponentScan" />
-        <module name="spring_@ComponentScan_exclude" />
-        <module name="spring_@Conditioncal" />
-        <module name="spring_@Import" />
-        <module name="spring_@Value" />
         <module name="spring_Aware" />
+        <module name="spring_Conditioncal" />
         <module name="spring_Bean" />
+        <module name="spring_@ComponentScan_exclude" />
+        <module name="spring-Aop" />
+        <module name="spring_@ComponentScan" />
+        <module name="springAop" />
+        <module name="spring_BeanPostProcessor实现介绍" />
+        <module name="spring_@Value" />
+        <module name="spring_Value" />
+        <module name="spring_Import" />
         <module name="spring_beanLifeCycle" />
         <module name="spring_BeanPostProcessor" />
-        <module name="spring_BeanPostProcessor实现介绍" />
         <module name="spring_ComponentScan" />
-        <module name="spring_Conditioncal" />
-        <module name="spring_FactoryBean" />
-        <module name="spring_Import" />
-        <module name="spring_transaction" />
-        <module name="spring_Value" />
-        <module name="springAop" />
+        <module name="spring_@Bean" />
+        <module name="spring_@Import" />
+        <module name="spring_@Conditioncal" />
+        <module name="springboot_abstrct_auto" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring_ComponentScan_exclude" target="1.5" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>

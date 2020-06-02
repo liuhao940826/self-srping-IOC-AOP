@@ -168,11 +168,14 @@ public class ApplicationRefContext {
 
                 if (declaredField != null) {
                     //获取对象属性的类型
-
                     if (propertyValue != null && !"".equals(propertyValue)) {
+                        //如果value 有值就是基础类型
                         String filedTypeName = declaredField.getType().getName();
+
                         setValue(bean, declaredField, filedTypeName, propertyValue);
+
                     } else if (propertyRef != null && !"".equals(propertyRef)) {
+                        //ref 有值就是引用类型
                         setRef(bean, propertyRef, propertyList);
                     }
                 }

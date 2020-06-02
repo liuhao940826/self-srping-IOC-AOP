@@ -19,29 +19,30 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @Configuration
-public class ApplicationConfig{
+public class ApplicationConfig {
     /**
      * 注意FactoryBean 在使用的时候才会被创建 不是在容器创建的时候
+     *
      * @return
      */
     @Bean
-        public MyFactoryBean factoryBean(){
-            return  new MyFactoryBean();
-        }
+    public MyFactoryBean factoryBean() {
+        return new MyFactoryBean();
+    }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            //构造函数的参数千万不能忘记
-            AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfig.class);
+        //构造函数的参数千万不能忘记
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfig.class);
 
-            System.out.println("spring 容器启动了......");
+        System.out.println("spring 容器启动了......");
 
 
-            Student student = (Student)context.getBean("factoryBean");
+        Student student = (Student) context.getBean("factoryBean");
 
-            System.out.println(student);
+        System.out.println(student);
 
-            context.close();
-            System.out.println("spring 容器关闭.......");
-        }
+        context.close();
+        System.out.println("spring 容器关闭.......");
+    }
 }

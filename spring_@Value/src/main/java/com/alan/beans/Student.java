@@ -10,13 +10,13 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class Student {
-
+    //指定值
     @Value("alan")
     private String name;
-
+    //SPEL 表达式
     @Value("#{29-2}")
     private int age;
-
+    //外部属性文件
     @Value("${student.home}")
     private String home;
 

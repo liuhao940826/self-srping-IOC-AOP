@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/MyImportBeanDefinitionRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/MyImportSelecter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/MyImportSelecter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/Brid.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/Brid.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,11 +57,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/MyImportBeanDefinitionRegistrar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_@Value/src/main/java/com/alan/beans/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,65 +102,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/config/ApplicationImPortSelectorConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_FactoryBean/src/main/java/com/alan/config/ApplicationConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/Student.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/Brid.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/Teacher.java">
+        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/Brid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/config/ApplicationConfig.java">
+        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/config/ApplicationIDefinitionConfig.java">
+        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="72" />
+            <state relative-caret-position="323">
+              <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/config/ApplicationImportDefineConfig.java">
+        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/config/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="48" />
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -185,11 +184,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/pom.xml" />
         <option value="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/spring_FactoryBean/src/main/java/com/alan/beans/MyFactoryBean.java" />
-        <option value="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/Brid.java" />
         <option value="$PROJECT_DIR$/spring_Aware/pom.xml" />
         <option value="$PROJECT_DIR$/spring_Aware/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java" />
@@ -236,6 +233,8 @@
         <option value="$PROJECT_DIR$/spring_@ComponentScan_exclude/src/main/java/com/alan/config/ApplicationCustomConfig.java" />
         <option value="$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/MyImportSelecter.java" />
         <option value="$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/beans/MyImportBeanDefinitionRegistrar.java" />
+        <option value="$PROJECT_DIR$/spring_@Value/src/main/java/com/alan/beans/Student.java" />
+        <option value="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/Brid.java" />
       </list>
     </option>
   </component>
@@ -299,25 +298,25 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Import" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Import" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Import" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Import" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -325,7 +324,7 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Import" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -334,7 +333,7 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Import" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -344,7 +343,7 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Import" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -355,7 +354,141 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Import" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor实现介绍" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor实现介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor实现介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor实现介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor实现介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor实现介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor实现介绍" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_BeanPostProcessor实现介绍" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -623,7 +756,7 @@
       <workItem from="1590115512632" duration="441000" />
       <workItem from="1590315099682" duration="268000" />
       <workItem from="1590565641077" duration="2308000" />
-      <workItem from="1590761050654" duration="9600000" />
+      <workItem from="1590761050654" duration="10812000" />
     </task>
     <task id="LOCAL-00001" summary="add prototype and single">
       <created>1558712600943</created>
@@ -800,11 +933,25 @@
       <option name="project" value="LOCAL" />
       <updated>1591118871781</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add comment">
+      <created>1591165765996</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591165765996</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add comment">
+      <created>1591166109079</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591166109079</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106382000" />
+    <option name="totallyTimeSpent" value="107594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,10 +1101,10 @@
     <MESSAGE value="fix error" />
     <MESSAGE value="fix name" />
     <MESSAGE value="remove module" />
-    <MESSAGE value="add comment" />
     <MESSAGE value="添加自定义规则类的处理" />
     <MESSAGE value="fix comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix comment" />
+    <MESSAGE value="add comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1090,49 +1237,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/constant/XmlConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/resources/applicationRef.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-ioc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/ApplicationContextAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1514">
-          <caret line="428" column="39" selection-start-line="428" selection-start-column="39" selection-end-line="428" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1455,6 +1559,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_@Value/src/main/java/com/alan/beans/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/Brid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/Brid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
         </state>
       </provider>
     </entry>

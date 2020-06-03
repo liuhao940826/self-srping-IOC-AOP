@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * @Author: liuhao
  * @Description: 只要实现这个接口就可以 并且这个类被BeanPostProcessor拦截的
+ * ApplicationContextAware 只是多个接口中的其中一个 具体参考 applicationContextAwareProcessor
  * @Date: Create in 9:54 PM 2019/5/27
  */
 @Component

@@ -11,6 +11,11 @@ import org.springframework.util.StringValueResolver;
 /**
  * @Author: liuhao
  * @Description: 只要实现这个接口就可以 并且这个类被BeanPostProcessor拦截的
+ *               ApplicationContextAware  实现了这个接口可以获得spring初始化的容器
+ *               BeanNameAware 可以获得beanName
+ *               EmbeddedValueResolverAware 可以获得解析器
+ *               上面3个都属于Aware接口 实现了Aware接口可以获取spring的更多资源
+ *
  * @Date: Create in 9:54 PM 2019/5/27
  */
 @Component
@@ -48,7 +53,7 @@ public class Brid implements ApplicationContextAware, BeanNameAware, EmbeddedVal
     }
 
     /**
-     * 在没有@value的情况下 可以解析对应的spel表达式
+     * 在没有@value的情况下 可以解析对应的spel表达式 字符串解析器例如不需要用@Value +表达式去获取值
      * @param stringValueResolver
      */
     public void setEmbeddedValueResolver(StringValueResolver stringValueResolver) {

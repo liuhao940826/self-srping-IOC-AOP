@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="">
+    <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="添加">
+      <change afterPath="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/PrototypeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/SingleBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/Brid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/MyBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/config/ApplicationConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,86 +62,86 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/PrototypeBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/Brid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/Brid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_@Value/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="133">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java">
+        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/annotation/Scope.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="105">
+              <caret line="77" column="25" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/annotation/PropertySource.java">
+        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="168" column="34" lean-forward="true" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
+            <state relative-caret-position="145">
+              <caret line="50" column="40" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/SingleBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="10" />
+              <folding>
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/beans/Linux.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/config/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/config/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -179,13 +183,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/pom.xml" />
-        <option value="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/spring_FactoryBean/src/main/java/com/alan/beans/MyFactoryBean.java" />
         <option value="$PROJECT_DIR$/spring_Aware/pom.xml" />
         <option value="$PROJECT_DIR$/spring_Aware/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/spring_beanLifeCycle/pom.xml" />
-        <option value="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/spring-Aop/src/main/java/com/alan/service/SelfService.java" />
         <option value="$PROJECT_DIR$/spring-Aop/src/main/java/com/alan/annotation/LoginRequired.java" />
         <option value="$PROJECT_DIR$/spring-Aop/pom.xml" />
@@ -198,7 +199,6 @@
         <option value="$PROJECT_DIR$/self-ioc/src/main/resources/application.xml" />
         <option value="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java" />
         <option value="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java" />
-        <option value="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/Brid.java" />
         <option value="$PROJECT_DIR$/spring_transaction/pom.xml" />
         <option value="$PROJECT_DIR$/spring_transaction/transaction.md" />
         <option value="$PROJECT_DIR$/spring_@Import/src/main/java/com/alan/config/ApplicationConfig.java" />
@@ -230,6 +230,10 @@
         <option value="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/src/main/java/com/alan/beans/Brid.java" />
         <option value="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java" />
+        <option value="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/Brid.java" />
+        <option value="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/SingleBean.java" />
+        <option value="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/PrototypeBean.java" />
+        <option value="$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/config/ApplicationConfig.java" />
       </list>
     </option>
   </component>
@@ -293,30 +297,25 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_@Value" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -324,7 +323,7 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -333,7 +332,7 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -343,7 +342,7 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -354,7 +353,18 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+              <item name="conditions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_@Conditioncal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -365,10 +375,69 @@
             <path>
               <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_Aware" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_beanLifeCycle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_beanLifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_beanLifeCycle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_beanLifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_beanLifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_beanLifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_beanLifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-srping-IOC-AOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-srping-IOC-AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_beanLifeCycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alan" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApplicationConfig">
+  <component name="RunManager" selected="Application.ApplicationConfig (2)">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -499,6 +568,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplicationConfig (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
+      <module name="spring_beanLifeCycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alan.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
       <module name="spring_Aware" />
@@ -538,33 +620,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationFilterTypeAssignableTypeConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationFilterTypeAssignableTypeConfig" />
-      <module name="spring_@ComponentScan_exclude" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alan.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ApplicationFilterTypeAssignableTypeConfig" />
       <item itemvalue="Application.ApplicationFilterTypeAnnotationConfig" />
       <item itemvalue="Application.ApplicationCustomConfig" />
       <item itemvalue="Application.ApplicationConfig (1)" />
       <item itemvalue="Application.ApplicationConfig" />
+      <item itemvalue="Application.ApplicationConfig (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApplicationConfig (2)" />
         <item itemvalue="Application.ApplicationConfig" />
         <item itemvalue="Application.ApplicationConfig (1)" />
         <item itemvalue="Application.ApplicationCustomConfig" />
         <item itemvalue="Application.ApplicationFilterTypeAnnotationConfig" />
-        <item itemvalue="Application.ApplicationFilterTypeAssignableTypeConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -612,7 +681,7 @@
       <workItem from="1590115512632" duration="441000" />
       <workItem from="1590315099682" duration="268000" />
       <workItem from="1590565641077" duration="2308000" />
-      <workItem from="1590761050654" duration="11835000" />
+      <workItem from="1590761050654" duration="12796000" />
     </task>
     <task id="LOCAL-00001" summary="add prototype and single">
       <created>1558712600943</created>
@@ -810,11 +879,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591168751574</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add comment">
+      <created>1591177695510</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591177695510</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108617000" />
+    <option name="totallyTimeSpent" value="109578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,7 +902,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1680" height="927" extended-state="6" />
+    <frame x="-1" y="23" width="1680" height="927" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24908425" />
@@ -837,9 +913,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.3257485" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" visible="true" weight="0.3257485" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.3257485" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.3980464" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.3976048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32896304" />
@@ -1100,65 +1176,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring_@ComponentScan_exclude/src/main/java/com/alan/beans/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="337" column="48" selection-start-line="337" selection-start-column="24" selection-end-line="337" selection-end-column="48" />
-          <folding>
-            <element signature="e#709#725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_@ComponentScan_exclude/src/main/java/com/alan/beans/TestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_@ComponentScan_exclude/src/main/java/com/alan/beans/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_@Bean/src/main/java/com/alan/beans/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_@Bean/src/main/java/com/alan/beans/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_@Bean/src/main/java/com/alan/beans/TheClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring_@Bean/src/main/java/com/alan/spring/config/ApplciationBeanConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
@@ -1226,13 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/beans/Linux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/beans/Mac.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1244,20 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/config/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/conditions/LinuxConditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1458,11 +1454,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="128">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/conditions/LinuxConditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/beans/Linux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/Brid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/annotation/Scope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/SingleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/PrototypeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_@Conditioncal/src/main/java/com/alan/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_beanLifeCycle/src/main/java/com/alan/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

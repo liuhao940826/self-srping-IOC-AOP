@@ -11,6 +11,11 @@ import org.springframework.stereotype.Service;
  * @Description: 次要业务逻辑
  * @Date: Create in 2:04 PM 2019/5/28
  */
+
+/**
+ * Aspect 为了标注是一个切面
+ * Service 注册到spring 容器中
+ */
 @Aspect
 @Service
 public class MinorService {

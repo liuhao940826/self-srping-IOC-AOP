@@ -23,6 +23,7 @@
         <module>spring_beanLifeCycle</module>
         <module>spring-Aop</module>
         <module>spring_transaction</module>
+        <module>spring-post-order</module>
     </modules>
 
 </project>

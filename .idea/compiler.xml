@@ -11,6 +11,7 @@
         <module name="self-ioc" />
         <module name="spring_Aware" />
         <module name="spring_Conditioncal" />
+        <module name="spring-post-order" />
         <module name="spring_Bean" />
         <module name="spring_@ComponentScan_exclude" />
         <module name="spring-Aop" />

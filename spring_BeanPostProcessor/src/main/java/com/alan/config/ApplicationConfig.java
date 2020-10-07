@@ -31,8 +31,8 @@ public class ApplicationConfig {
 
         System.out.println("spring 容器启动了......");
 
-//        Dog dog = (Dog) context.getBean("dog");
-//        System.out.println(dog);
+        Dog dog = (Dog) context.getBean("dog");
+        System.out.println(dog);
         context.close();
         System.out.println("spring 容器关闭.......");
     }

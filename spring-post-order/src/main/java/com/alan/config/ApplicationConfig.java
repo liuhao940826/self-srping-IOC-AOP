@@ -22,7 +22,7 @@ import org.springframework.context.annotation.Configuration;
 public class ApplicationConfig {
 
     @Bean(initMethod = "initMethod",destroyMethod = "destory")
-    public OrderBean myBeanPostProcessor() {
+    public OrderBean orderBean() {
         return new OrderBean();
     }
 
@@ -33,8 +33,8 @@ public class ApplicationConfig {
 
         System.out.println("spring 容器启动了......");
 
-//        Dog dog = (Dog) context.getBean("dog");
-//        System.out.println(dog);
+        OrderBean orderBean = (OrderBean) context.getBean("orderBean");
+        System.out.println(orderBean);
         context.close();
         System.out.println("spring 容器关闭.......");
     }

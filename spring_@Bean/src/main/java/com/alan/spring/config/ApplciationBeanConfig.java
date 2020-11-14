@@ -38,7 +38,7 @@ public class ApplciationBeanConfig {
      * 这个注解专用于单例的bean 此时bean不会再spring容器被加载的时候创建在被使用的时候创建
      * @return
      */
-    @Lazy
+    @Lazy(value = true)
     @Bean
     public Teacher teacher(){
         return  new Teacher();
@@ -48,9 +48,12 @@ public class ApplciationBeanConfig {
         //每次选择 标注数字的一段代码释放查看效果
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplciationBeanConfig.class);
 
+
+        System.out.println("容器启动完成.......");
         //1 获取注解上下文中所有定义的bean名字
         String[] beanDefinitionNames = context.getBeanDefinitionNames();
 
+        System.out.println("获取bean的名字");
         for (String beanDefinitionName : beanDefinitionNames) {
             //输出bean的名字
             System.out.println(beanDefinitionName);
@@ -58,7 +61,7 @@ public class ApplciationBeanConfig {
 //
 
 
-        System.out.println("=>>>>>>>>>>>>>>>>>>>>>>>>>>>defalut single test");
+        System.out.println("=>>>>>>>>>>>>>>>>>>>>>>>>>>>默认的单例测试defalut single test");
         //2 默认单例
         Object stu1 = context.getBean("s1");
         Object stu2 = context.getBean("s1");
@@ -72,7 +75,8 @@ public class ApplciationBeanConfig {
 
         System.out.println("=>>>>>>>>>>>>>>>>>>>>>>>>bean used");
         //4 单例被索要时候创建
-//        Object organ = context.getBean("teacher");
+        Object organ = context.getBean("teacher");
 
+        System.out.println(organ);
     }
 }

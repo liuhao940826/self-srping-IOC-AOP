@@ -28,7 +28,7 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
                 age.setAccessible(true);
                 age.set(bean, 9);
             }
-
+            System.out.println("前置被执行了");
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -45,6 +45,8 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
      * @throws BeansException
      */
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
+
+        System.out.println("后置被执行了");
         return bean;
     }
 }

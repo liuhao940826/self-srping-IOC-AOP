@@ -8,6 +8,8 @@ import org.springframework.context.EmbeddedValueResolverAware;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringValueResolver;
 
+import javax.annotation.PostConstruct;
+
 /**
  * @Author: liuhao
  * @Description: 只要实现这个接口就可以 并且这个类被BeanPostProcessor拦截的
@@ -69,5 +71,24 @@ public class Brid implements ApplicationContextAware, BeanNameAware, EmbeddedVal
                 "age=" + age +
                 ", applicationContext=" + applicationContext +
                 '}';
+    }
+
+    @PostConstruct
+    public void postConstruct (){
+        System.out.println("postConstruct..................");
+    }
+
+    public void initMethod(){
+        System.out.println("init ..................");
+    }
+
+    public void destory(){
+        System.out.println("destory ..................");
+    }
+
+
+
+    public Brid() {
+        System.out.println("实例化");
     }
 }

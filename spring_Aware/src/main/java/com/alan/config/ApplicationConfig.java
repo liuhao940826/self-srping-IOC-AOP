@@ -15,13 +15,18 @@ import org.springframework.context.annotation.*;
  * 作用:第一个加载指定的property文件,将读取到的key/value 去替换spring上下文中的属性占位符${xxx}
  */
 @PropertySource("classpath:/config.properties")
-@ComponentScan(value = "com.alan.beans")
+//@ComponentScan(value = "com.alan.beans")
 @Configuration
 public class ApplicationConfig {
 
     @Bean
     public MyBeanPostProcessor myBeanPostProcessor() {
         return new MyBeanPostProcessor();
+    }
+
+    @Bean(initMethod = "initMethod",destroyMethod = "destory")
+    public Brid orderBean() {
+        return new Brid();
     }
 
     public static void main(String[] args) {

@@ -12,7 +12,6 @@
     <artifactId>spring_@Bean</artifactId>
 
 
-
     <dependencies>
 
         <!--spring 容器需要依赖-->

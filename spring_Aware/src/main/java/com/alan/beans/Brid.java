@@ -2,6 +2,7 @@ package com.alan.beans;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.EmbeddedValueResolverAware;
@@ -21,7 +22,7 @@ import javax.annotation.PostConstruct;
  * @Date: Create in 9:54 PM 2019/5/27
  */
 @Component
-public class Brid implements ApplicationContextAware, BeanNameAware, EmbeddedValueResolverAware {
+public class Brid implements InitializingBean, ApplicationContextAware, BeanNameAware, EmbeddedValueResolverAware {
 
     private int age;
     /**
@@ -90,5 +91,9 @@ public class Brid implements ApplicationContextAware, BeanNameAware, EmbeddedVal
 
     public Brid() {
         System.out.println("实例化");
+    }
+
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("after PropertiesSet方法");
     }
 }

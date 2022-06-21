@@ -1,40 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="add comment">
-      <change afterPath="$PROJECT_DIR$/spring-post-order/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-post-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-post-order/src/main/java/com/alan/beans/OrderBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-post-order/src/main/java/com/alan/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_@Bean/src/main/java/com/alan/spring/config/ApplciationBeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_@Bean/src/main/java/com/alan/spring/config/ApplciationBeanConfig.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/self-ioc/target/" />
-    <ignored path="$PROJECT_DIR$/spring_@Bean/target/" />
-    <ignored path="$PROJECT_DIR$/spring_@ComponentScan/target/" />
-    <ignored path="$PROJECT_DIR$/spring_@ComponentScan_eliminate/target/" />
-    <ignored path="$PROJECT_DIR$/spring_@ComponentScan_Exclude/target/" />
-    <ignored path="$PROJECT_DIR$/spring_@Conditioncal/target/" />
-    <ignored path="$PROJECT_DIR$/spring_FactoryBean/target/" />
-    <ignored path="$PROJECT_DIR$/spring_@Import/target/" />
-    <ignored path="$PROJECT_DIR$/spring_@Value/target/" />
-    <ignored path="$PROJECT_DIR$/spring_BeanPostProcessor/target/" />
-    <ignored path="$PROJECT_DIR$/spring_BeanPostProcessor实现介绍/target/" />
-    <ignored path="$PROJECT_DIR$/spring_Aware/target/" />
-    <ignored path="$PROJECT_DIR$/spring_beanLifeCycle/target/" />
-    <ignored path="$PROJECT_DIR$/spring-Aop/target/" />
-    <ignored path="$PROJECT_DIR$/spring_transaction/target/" />
-    <ignored path="$PROJECT_DIR$/spring_abstract_@auto/target/" />
-    <ignored path="$PROJECT_DIR$/springboot_@abstrct_auto/target/" />
-    <ignored path="$PROJECT_DIR$/spring-post-order/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,117 +36,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="539" column="47" selection-start-line="539" selection-start-column="16" selection-end-line="539" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-post-order/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-post-order/src/main/java/com/alan/config/ApplicationConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-post-order/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="21" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-post-order/src/main/java/com/alan/beans/OrderBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#1327#1328#0" expanded="true" />
-                <element signature="e#1388#1389#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1480#1481#0" expanded="true" />
-                <element signature="e#1506#1507#0" expanded="true" />
-                <element signature="e#1565#1566#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/MyBeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -298,6 +159,7 @@
     <option name="width" value="1680" />
     <option name="height" value="927" />
   </component>
+  <component name="ProjectId" id="2AsWeYdGFrrscIwSqGyDNF9CWd3" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -467,6 +329,10 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="CompletableFuture&#9;PSI&#9;JAVA://java.util.concurrent.CompletableFuture&#10;AbstractApp&#9;FILE&#9;jar:///Users/liuhao/Downloads/repository/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java&#10;Aware&#9;FILE&#9;jar:///Users/liuhao/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;AbstractA&#9;FILE&#9;jar:///Users/liuhao/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class&#10;Abst&#9;FILE&#9;jar:///Users/liuhao/Downloads/repository/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class&#10;AbstractAu&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory&#10;ApplicationContextA&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor" />
@@ -499,18 +365,6 @@
       <recent name="$PROJECT_DIR$/spring-Aop/src/main/java" />
       <recent name="$PROJECT_DIR$/spring_beanLifeCycle/src/main/resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.ApplicationConfig (3)">
     <configuration default="true" type="tests" factoryName="Nosetests">
@@ -657,6 +511,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1018,22 +873,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -1052,6 +892,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add prototype and single" />
@@ -1085,121 +926,101 @@
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationSingleContext.java</url>
           <line>153</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationSingleContext.java</url>
           <line>144</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationSingleContext.java</url>
           <line>104</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationSingleContext.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationSingleContext.java</url>
           <line>62</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationRefContext.java</url>
           <line>263</line>
-          <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationRefContext.java</url>
           <line>147</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationRefContext.java</url>
           <line>175</line>
-          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationRefContext.java</url>
           <line>177</line>
-          <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationRefContext.java</url>
           <line>221</line>
-          <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alan/context/ApplicationRefContext.java</url>
           <line>241</line>
-          <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring_BeanPostProcessor/src/main/java/com/alan/beans/MyBeanPostProcessor.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
           <line>275</line>
-          <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/Downloads/repository/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
           <line>244</line>
-          <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java</url>
           <line>81</line>
-          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationRefContext.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring_FactoryBean/src/main/java/com/alan/test/FileZiP.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring_FactoryBean/src/main/java/com/alan/test/FileZiP.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/springboot_@abstrct_auto/src/main/java/bean/TestClient.java</url>
           <line>3</line>
-          <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>

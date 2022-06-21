@@ -48,7 +48,7 @@ public class ApplicationSingleContext {
     }
 
     /**
-     * 单例实在spring 容器创建的时候加载
+     * 单例实在spring 容器创建的时候加载 自定义解析流程
      * 根据scope 获取对应的标签 获取标签中class 的类路径,根据classFile去创建实例
      */
     public static void loadingBean( ){

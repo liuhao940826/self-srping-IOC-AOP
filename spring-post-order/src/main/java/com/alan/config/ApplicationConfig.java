@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 排除注解类型的注解交给spring管理
  * 排除controller和Service
- * 实例化> before > postConstruct > init> after 可以看aware项目的运行结果
+ * 实例化> before > postConstruct > afterset 方法(InitializingBean接口) > init> after 可以看aware项目的运行结果
  * filterType 有五种点进去看
  */
 @ComponentScan(value = "com.alan.beans")

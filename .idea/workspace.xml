@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="add comment">
-      <change beforePath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationSingleContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +331,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -366,7 +365,7 @@
       <recent name="$PROJECT_DIR$/spring_beanLifeCycle/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationConfig (3)">
+  <component name="RunManager" selected="Application.ApplicationConfig">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,9 +502,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApplicationConfig" />
         <item itemvalue="Application.ApplicationConfig (3)" />
         <item itemvalue="Application.ApplicationConfig (2)" />
-        <item itemvalue="Application.ApplicationConfig" />
         <item itemvalue="Application.ApplicationConfig (1)" />
         <item itemvalue="Application.ApplicationCustomConfig" />
       </list>
@@ -775,7 +774,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591285398664</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add comment">
+      <created>1655799301315</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1655799301315</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

@@ -52,7 +52,7 @@ public class Brid implements InitializingBean, ApplicationContextAware, BeanName
      * @param s
      */
     public void setBeanName(String s) {
-        System.out.println("brid beanName:"+s);
+        System.out.println("beanAware 接口 brid beanName:"+s);
     }
 
     /**
@@ -61,7 +61,7 @@ public class Brid implements InitializingBean, ApplicationContextAware, BeanName
      */
     public void setEmbeddedValueResolver(StringValueResolver stringValueResolver) {
 
-        String value = stringValueResolver.resolveStringValue("我是${teacher.name} , 我今年#{2019-1994}");
+        String value = stringValueResolver.resolveStringValue("EmbeddedValueResolverAware接口 我是${teacher.name} , 我今年#{2019-1994}");
 
         System.out.println(value);
     }
@@ -94,6 +94,6 @@ public class Brid implements InitializingBean, ApplicationContextAware, BeanName
     }
 
     public void afterPropertiesSet() throws Exception {
-        System.out.println("after PropertiesSet方法");
+        System.out.println("InitializingBean接口 after PropertiesSet方法");
     }
 }

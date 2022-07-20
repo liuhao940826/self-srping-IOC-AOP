@@ -13,6 +13,8 @@ import org.springframework.context.annotation.*;
 /**
  * @PropertySource 获取spring的的属性 代替context:property-placeholder
  * 作用:第一个加载指定的property文件,将读取到的key/value 去替换spring上下文中的属性占位符${xxx}
+ * 实例化 > aware > beforePostProcesserBeforeInitialization >postConstruct> InitializingBean的afterPropertiesSet
+ *       > init> afterPostProcesserBeforeInitialization
  */
 @PropertySource("classpath:/config.properties")
 //@ComponentScan(value = "com.alan.beans")
@@ -25,7 +27,7 @@ public class ApplicationConfig {
     }
 
     @Bean(initMethod = "initMethod",destroyMethod = "destory")
-    public Brid orderBean() {
+    public Brid bridName1() {
         return new Brid();
     }
 

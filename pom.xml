@@ -24,6 +24,7 @@
         <module>spring-Aop</module>
         <module>spring_transaction</module>
         <module>spring-post-order</module>
+      <module>spring_spi</module>
     </modules>
 
 </project>

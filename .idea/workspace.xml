@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="add comment">
+    <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="fix discribtion">
+      <change afterPath="$PROJECT_DIR$/spring_spi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-Aop/src/main/java/com/alan/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-Aop/src/main/java/com/alan/service/MainService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/MyBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -490,9 +494,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationCustomConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationCustomConfig" />
-      <module name="spring_@ComponentScan_exclude" />
+    <configuration name="TestTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alan.config.TestTime" />
+      <module name="spring_Aware" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.alan.config.*" />
@@ -504,19 +508,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApplicationCustomConfig" />
       <item itemvalue="Application.ApplicationConfig (1)" />
       <item itemvalue="Application.ApplicationConfig" />
       <item itemvalue="Application.ApplicationConfig (2)" />
       <item itemvalue="Application.ApplicationConfig (3)" />
+      <item itemvalue="Application.TestTime" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ApplicationConfig" />
-        <item itemvalue="Application.ApplicationConfig (3)" />
+        <item itemvalue="Application.TestTime" />
         <item itemvalue="Application.ApplicationConfig (2)" />
+        <item itemvalue="Application.ApplicationConfig (3)" />
         <item itemvalue="Application.ApplicationConfig (1)" />
-        <item itemvalue="Application.ApplicationCustomConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -798,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655801352214</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fix discribtion">
+      <created>1655861689487</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1655861689487</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -941,7 +952,8 @@
     <MESSAGE value="fix comment" />
     <MESSAGE value="fix beanLifeCycle的代码 做部分优化和注解" />
     <MESSAGE value="add comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
+    <MESSAGE value="fix discribtion" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix discribtion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1045,6 +1057,14 @@
           <url>file://$PROJECT_DIR$/springboot_@abstrct_auto/src/main/java/bean/TestClient.java</url>
           <line>3</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>243</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" method="postProcessBeforeInstantiation">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

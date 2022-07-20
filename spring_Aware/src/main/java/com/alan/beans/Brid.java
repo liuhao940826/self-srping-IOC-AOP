@@ -52,7 +52,7 @@ public class Brid implements InitializingBean, ApplicationContextAware, BeanName
      * @param s
      */
     public void setBeanName(String s) {
-        System.out.println("beanAware 接口 brid beanName:"+s);
+        System.out.println("beanAware 接口 brid beanName:"+s+"这个名字来源于@Bean的方法名");
     }
 
     /**

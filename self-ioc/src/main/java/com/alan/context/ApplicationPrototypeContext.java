@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class ApplicationPrototypeContext {
 
-    private static String filePath = "/Users/liuhao/IdeaProjects/self-srping-IOC-AOP/self-ioc/src/main/resources/applicationPrototype.xml";
+    private static String filePath = "/Users/liuhao/selfworkSpace/self-srping-IOC-AOP/self-ioc/src/main/resources/applicationPrototype.xml";
 
     private static Document config;
 

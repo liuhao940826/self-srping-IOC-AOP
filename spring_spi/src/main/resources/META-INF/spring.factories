@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration = spi.configuration.AutoSPIConfiguration
+spi.SpiInterface = spi.impl.DoSpi,spi.impl.DoubleDoSpi

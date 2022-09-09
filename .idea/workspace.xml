@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce803845-2dcc-4ea7-a2ee-64533edf1b56" name="Default Changelist" comment="fix discribtion">
-      <change afterPath="$PROJECT_DIR$/spring_spi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_spi/src/main/java/spi/SpiInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_spi/src/main/java/spi/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_spi/src/main/java/spi/configuration/AutoSPIConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_spi/src/main/java/spi/impl/DoSpi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_spi/src/main/java/spi/impl/DoubleDoSpi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_spi/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-Aop/src/main/java/com/alan/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-Aop/src/main/java/com/alan/service/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_spi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_spi/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +355,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587980745947" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-post-order" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_spi/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -361,25 +364,25 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring_spi/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring_spi/src/main/java" />
+      <recent name="$PROJECT_DIR$/spring-post-order" />
+      <recent name="$PROJECT_DIR$/spring_transaction" />
+      <recent name="$PROJECT_DIR$/self-ioc/src/main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spi" />
       <recent name="com.alan" />
       <recent name="com.alan.config" />
       <recent name="base" />
       <recent name="com.alan.aspect" />
-      <recent name="com.alan.annotation" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring-post-order" />
-      <recent name="$PROJECT_DIR$/spring_transaction" />
-      <recent name="$PROJECT_DIR$/self-ioc/src/main" />
-      <recent name="$PROJECT_DIR$/spring-Aop/src/main/java" />
-      <recent name="$PROJECT_DIR$/spring_beanLifeCycle/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationConfig">
+  <component name="RunManager" selected="Application.AutoSPIConfiguration">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -442,35 +445,9 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationConfig (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
-      <module name="spring_@Conditioncal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alan.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApplicationConfig (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
       <module name="spring_beanLifeCycle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alan.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationConfig (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alan.config.ApplicationConfig" />
-      <module name="spring-post-order" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.alan.config.*" />
@@ -494,6 +471,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplicationPrototypeContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alan.context.ApplicationPrototypeContext" />
+      <module name="self-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alan.context.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoSPIConfiguration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spi.configuration.AutoSPIConfiguration" />
+      <module name="spring_spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spi.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alan.config.TestTime" />
       <module name="spring_Aware" />
@@ -508,19 +511,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApplicationConfig (1)" />
-      <item itemvalue="Application.ApplicationConfig" />
       <item itemvalue="Application.ApplicationConfig (2)" />
-      <item itemvalue="Application.ApplicationConfig (3)" />
+      <item itemvalue="Application.ApplicationConfig" />
       <item itemvalue="Application.TestTime" />
+      <item itemvalue="Application.ApplicationPrototypeContext" />
+      <item itemvalue="Application.AutoSPIConfiguration" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoSPIConfiguration" />
+        <item itemvalue="Application.ApplicationPrototypeContext" />
         <item itemvalue="Application.ApplicationConfig" />
         <item itemvalue="Application.TestTime" />
         <item itemvalue="Application.ApplicationConfig (2)" />
-        <item itemvalue="Application.ApplicationConfig (3)" />
-        <item itemvalue="Application.ApplicationConfig (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -809,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655861689487</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fix discribtion">
+      <created>1658310328413</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1658310328413</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1039,11 +1049,6 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring_Aware/src/main/java/com/alan/beans/Brid.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring_FactoryBean/src/main/java/com/alan/test/FileZiP.java</url>
           <line>45</line>
           <option name="timeStamp" value="38" />
@@ -1057,6 +1062,41 @@
           <url>file://$PROJECT_DIR$/springboot_@abstrct_auto/src/main/java/bean/TestClient.java</url>
           <line>3</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/self-ioc/src/main/java/com/alan/context/ApplicationPrototypeContext.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring_spi/src/main/java/spi/configuration/AutoSPIConfiguration.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
